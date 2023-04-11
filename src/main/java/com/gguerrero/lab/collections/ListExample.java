@@ -12,10 +12,16 @@ public class ListExample {
         list.add("Tercer valor");
         list.add("Cuarto valor");
 
+        // List allows duplicated values
+//        list.add("Primer valor");
+
         // old way
         for (String s : list) {
             System.out.println(s);
         }
+
+        System.out.println();
+
 
         // lambda
         list.forEach(System.out::println);
